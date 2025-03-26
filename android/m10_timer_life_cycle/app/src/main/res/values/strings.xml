@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">homework</string>
+    <string name="text_checkbox">У меня есть отчество</string>
+    <string name="text_button">Представиться</string>
+    <string name="surname_hint">Отчество</string>
+    <string name="save_button">Сохранить</string>
+    <string name="firstname_text">Имя</string>
+    <string name="lastname_text">Фамилия</string>
+</resources>

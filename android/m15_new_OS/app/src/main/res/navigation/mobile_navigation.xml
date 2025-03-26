@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_photo_list">
+
+    <fragment
+        android:id="@+id/nav_photo_list"
+        android:name="com.example.homework.ui.photoList.PhotoListFragment"
+        android:label="@string/menu_album"
+        tools:layout="@layout/fragment_photo_list">
+
+        <action android:id="@+id/action_nav_photo_list_to_nav_snapshot" app:destination="@id/nav_snapshot" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_snapshot"
+        android:name="com.example.homework.ui.snapshot.SnapshotFragment"
+        android:label="@string/menu_camera"
+        tools:layout="@layout/fragment_photo_snapshot">
+        <action android:id="@+id/nav_snapshot_to_nav_photo_list" app:destination="@id/nav_photo_list" />
+    </fragment>
+</navigation>

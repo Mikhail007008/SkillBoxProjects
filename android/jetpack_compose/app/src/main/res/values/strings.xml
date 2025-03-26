@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Compose</string>
+    <string name="text_top_bar_detail_screen">Person details</string>
+    <string name="status_character_text">Alive</string>
+    <string name="species_and_gender_text">Species and gender:</string>
+    <string name="last_known_location_text">Last known location:</string>
+    <string name="first_seen_in_text">First seen in:</string>
+    <string name="loading_text">Loading...</string>
+    <string name="episodes_text">Episodes:</string>
+    <string name="characters_topAppBar_text">Characters</string>
+    <string name="error_text">Error</string>
+    <string name="retry_button_text">Retry</string>
+    <string name="locations_topAppBar_text">Locations</string>
+    <string name="type_text">Type: %1$s</string>
+    <string name="dimension_text">Dimension: %1$s</string>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">homework</string>
+    <string name="hint_info_text">Данные пользователя</string>
+    <string name="button_text">Обновить</string>
+</resources>

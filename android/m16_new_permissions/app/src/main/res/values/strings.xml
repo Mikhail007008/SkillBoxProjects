@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">homework</string>
+    <string name="button_text">Где я?</string>
+    <string name="zoom_in_description">Zoom In</string>
+    <string name="zoom_out_description">Zoom Out</string>
+    <string name="marker_name">Наименование</string>
+    <string name="marker_description_text">Описание достопримечательности</string>
+    <string name="button_close_text">Закрыть</string>
+    <string name="marker_image_description">Marker image</string>
+</resources>

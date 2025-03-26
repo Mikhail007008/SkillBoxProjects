@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">homework</string>
+    <string name="image_description" translatable="false">User</string>
+    <string name="name_input" translatable="false">Имя</string>
+    <string name="gender_text" translatable="false">Пол</string>
+    <string name="phone_input" translatable="false">Телефон</string>
+    <string name="text_switch" translatable="false">Получать уведомления</string>
+    <string name="text_first_checkbox" translatable="false">Об авторизации на устройстве</string>
+    <string name="text_second_checkbox" translatable="false">О новинках и предложениях</string>
+    <string name="points_text" translatable="false">Баллы</string>
+    <string name="text_button" translatable="false">Сохранить</string>
+    <string name="save_button" translatable="false">Изменения сохранены</string>
+</resources>

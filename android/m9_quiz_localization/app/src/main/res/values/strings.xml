@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Quiz please</string>
+    <string name="main_button_text">Start</string>
+    <string name="text_button_send_result">Send</string>
+    <string name="text_button_previous">Back</string>
+    <string name="text_again_button">Start again</string>
+    <string name="text_button_language_ru">Ru</string>
+    <string name="text_button_language_en">En</string>
+    <string name="text_toast">Select the answer to all questions</string>
+    <string name="text_birthday_button">Enter your date of birth</string>
+    <string name="choose_birthday_dialog_title">Enter your birthday</string>
+</resources>
