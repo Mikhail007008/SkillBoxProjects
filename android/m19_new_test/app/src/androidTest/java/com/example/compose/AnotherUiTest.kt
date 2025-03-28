@@ -1,6 +1,5 @@
 package com.example.compose
 
-import android.util.Log
 import androidx.compose.ui.test.assertIsDisplayed
 import androidx.compose.ui.test.junit4.createComposeRule
 import androidx.compose.ui.test.onNodeWithTag
@@ -62,9 +61,7 @@ class CharactersListTest {
 
     @Test
     fun testCharacterListPagination() {
-        Log.d("TEST", "Тест запустился!")
         composeTestRule.setContent {
-            Log.d("TEST", "RickAndMortyApp запущен")
             RickAndMortyApp(
                 characterViewModel = characterViewModel,
                 locationViewModel = locationViewModel
@@ -75,7 +72,3 @@ class CharactersListTest {
         composeTestRule.onNodeWithTag("loadingIndicator").assertIsDisplayed()
     }
 }
-
-
-
-
